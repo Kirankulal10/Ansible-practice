@@ -1,0 +1,19 @@
+- name: sample-playbook
+  hosts: server
+  become: yes
+
+  vars:
+    k_name:
+      - tree
+      - zip
+      - unzip
+      - curl
+      - net-tools
+  tasks:
+    - name: sample-task
+      apt:
+        name: "{{item}}"
+        state: absent
+
+      loop: "{{k_name}}"
+      when: ansible_facts['distribution'] == "Centos"
