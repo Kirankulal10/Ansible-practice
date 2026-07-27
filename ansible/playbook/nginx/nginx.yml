@@ -1,6 +1,12 @@
 - name: Install and Configure Nginx
   hosts: server
   become: yes
+  vars:
+    welcome_message: "Hello Guys 👋"
+    company: "DevOps Academy"
+    trainer: "Kiran"
+    course: "Ansible for Beginners"
+    environment: "Production"
 
   tasks:
 
@@ -22,5 +28,5 @@
     - name: copy file
       copy: 
         src: index.html
-        dest: /var/www/html
+        dest: /var/www/html/index.html
 

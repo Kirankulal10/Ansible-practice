@@ -188,3 +188,255 @@ nano hello.yml
 ansible-playbook -i ../host.ini hello.yml 
 nano hello.yml 
 ansible-playbook -i ../host.ini hello.yml 
+ls
+xs ansible/
+cd ansible/
+ls
+cd playbook/
+mkdir secrets
+cd secrets/
+nano secrets.yml
+ansible-vault encrypt secrets.yml 
+nano secrets-play.yml
+nano secrets.yml 
+nano secrets-play.yml
+cat secrets.yml 
+ansible-playbook -i ../../host.ini secrets-play.yml 
+nano secrets-play.yml 
+ansible-playbook -i ../../host.ini secrets-play.yml 
+ansible-playbook -i ../../host.ini secrets-play.yml --ask-vault-pass
+ansible-vault encrypt secrets.yml
+ansible-playbook -i ../../host.ini secrets-play.yml
+ansible-playbook -i ../../host.ini secrets-play.yml --ask-vault-pass
+nano secrets-play.yml 
+ansible-playbook -i ../../host.ini secrets-play.yml --ask-vault-pass
+cd ..
+mkdir nginx
+cd nginx/
+nano nginx.yml
+nano nginx.yml 
+ansible-playbook -i ../../host.ini nginx.yml 
+nano nginx.yml 
+ansible-playbook -i ../../host.ini nginx.yml 
+nano nginx.yml 
+nano index.html
+nano nginx.yml 
+ansible-playbook -i ../../host.ini 
+ansible-playbook -i ../../host.ini nginx.yml 
+nano nginx.yml 
+cat ../../host.ini
+nano nginx.yml 
+ansible-playbook -i ../../host.ini nginx.yml 
+cd
+ls
+ls -lah
+rm -rf go
+sudo rm -rf go/
+ls
+sudo rm -rf snap
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Kirankulal10/Ansible-practice.git
+git push -u origin main
+ls
+cd
+ls
+cd ansible/
+l
+s
+ls
+cd playbook/
+ls
+cd nginx/
+ls
+nano index.html 
+cat index.html 
+ls
+nano nginx.yml 
+ansible-playbook -i ../../host.ini nginx.yml 
+cat index.html 
+ls
+cat nginx.yml 
+l
+ls
+cat nginx.yml 
+mv index.html index.html.j2
+nano nginx.yml 
+ansible-playbook -i ../../host.ini nginx.yml 
+nano nginx.yml 
+ansible-playbook -i ../../host.ini nginx.yml 
+cat nginx.yml 
+nano nginx.yml 
+nano index.html.j2 
+mv index.html.j2 index.html
+l
+als
+ls
+nano index.html 
+ansible-playbook -i ../../host.ini nginx.yml 
+ansible-galaxy init role/docker
+ls
+cd role
+ls
+cd docker/
+ls
+cd ..
+ls
+tree
+sudo apt  install tree 
+tree
+cd role/
+ls
+cd docker/
+ls
+tree
+cd meta/
+ls
+nano main.yml 
+cd role
+ls
+cd docker/
+ls
+tree
+cd defaults/
+nano main.yml
+ls
+cd role
+ls
+cd docker
+ls
+cd
+cd ansible/
+ls
+cd playbook/
+ls
+cd nginx/
+ls
+cp index.html ../../../role/docker/files/
+cd
+cd /role/docker/files/
+cd role/docker/files/
+ls
+cd ..
+tree
+cd docker
+ls
+cd files/
+nano index.html 
+cat index.html 
+cd ..
+ls
+cd
+cd ansible/
+ls
+cd playbook/
+ls
+cd nginx/
+ls
+cat nginx
+cat nginx.yml 
+cd
+cd role/
+cd docker/tasks/
+ls
+nano main.yml 
+ls
+cd ans
+cd role/
+ls
+cd docker
+ls
+cd files
+l
+cd ../task
+cd .. /task
+cd ..
+cd task
+cd tasks
+ls
+cat main.yml 
+cd ../defaults/
+ls
+cat main.yml 
+cd ../..
+cd ..
+ls
+nano run_role.yml
+cd ansible/
+ls
+cat host.ini 
+cd playbook/
+ls
+cat hello.yml 
+cd
+ls
+nano run_role.yml 
+ansible-playbook -i ansible/host.ini run_role.yml 
+nano run_role.yml 
+ansible-playbook -i ansible/host.ini run_role.yml 
+nano role/docker/tasks/main.yml
+ansible-playbook -i ansible/host.ini run_role.yml 
+nano role/docker/tasks/main.yml
+ansible-playbook -i ansible/host.ini run_role.yml 
+nano role/docker/tasks/main.yml
+ansible-playbook -i ansible/host.ini run_role.yml 
+roles
+cd role/
+tree
+cd
+tree
+la
+cd ansible/
+ls
+cd
+ls
+cd role/
+cd
+nano run_role.yml 
+ansible-playbook -i ansible/host.ini run_role.yml 
+nano run_role.yml 
+cat run_role.yml 
+nano role/docker/tasks/main.yml
+ls
+nano run_role.yml 
+pwd
+tree -L 3
+mv role roles
+nano run_role.yml 
+ansible-playbook -i ansible/host.ini run_role.yml 
+cd roles/docker/templates/
+ls
+cd..
+cd ..
+cd handlers/
+ls
+nano main.yml 
+cd ..
+ls
+cd tasks/
+ls
+nano main.yml 
+cd ..
+cd files/
+ls
+nano index.html 
+cd
+ansible-playbook -i ansible/host.ini run_role.yml 
+ls
+cd roles/
+ls
+cd docker/
+ls
+cd handlers/
+ls
+nano main.yml 
+lcd
+cd
+ansible-playbook -i ansible/host.ini run_role.yml 
+cd roles/docker/files/
+nano index.html 
+cd
+ansible-playbook -i ansible/host.ini run_role.yml 

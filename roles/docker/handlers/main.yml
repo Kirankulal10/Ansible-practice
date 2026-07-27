@@ -1,0 +1,5 @@
+---
+- name: stop nginx
+  service:
+    name: nginx
+    state: started

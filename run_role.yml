@@ -1,0 +1,6 @@
+- name: copy new index
+  hosts: server
+  become: yes
+
+  roles:
+    - docker
